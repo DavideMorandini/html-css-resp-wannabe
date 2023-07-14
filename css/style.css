@@ -47,19 +47,16 @@ img {
 
 /* LAYOUT */
 .container {
-    border: 5px solid black;
     width: 1140px;
     margin: 0 auto;
     padding: 0 20px;
 }
 
 .row {
-    border: 5px solid red;
     display: flex;
 }
 
 .col {
-    border: 5px solid green;
     padding-left: 1rem;
     padding-right: 1rem;
 }
@@ -90,7 +87,6 @@ img {
 
 /* STEPS SECTION */
 .steps {
-    border: 5px solid violet;
     margin: 3rem 0;
     padding: 3rem 0;
     color: #232946;
@@ -136,15 +132,14 @@ img {
  @media screen and (max-width: 768px) {
     .container {
         width: 100%;
-        margin: 0 auto;
-        padding: 0 20px; 
         display: flex;
         flex-direction: row;
+        justify-content: center;
         flex-wrap: wrap;
     }
 
     .row {
-        border: 5px solid red;
+        /* border: 5px solid red; */
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
@@ -155,7 +150,7 @@ img {
     }
 
     .steps .col {
-        border: 5px solid green;
+        /* border: 5px solid green; */
         width: 100%;
         padding-left: 1rem;
         padding-right: 1rem;
@@ -178,11 +173,12 @@ img {
         padding: 0 20px; 
         display: flex;
         flex-direction: row;
+        justify-content: center;
         flex-wrap: wrap;
     }
 
     .row {
-        border: 5px solid red;
+        /* border: 5px solid red; */
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
@@ -193,7 +189,7 @@ img {
     }
 
     .steps .col {
-        border: 5px solid green;
+        /* border: 5px solid green; */
         width: 100%;
         padding-left: 1rem;
         padding-right: 1rem;
